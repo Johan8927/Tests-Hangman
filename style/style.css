@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#word {
+  letter-spacing: 10px;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: red;
+}
+
+#letters {
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#hangman {
+  margin-top: 20px;
+}
+
+ul {
+  text-align: left;
+}
