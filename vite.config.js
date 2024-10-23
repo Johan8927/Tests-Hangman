@@ -1,7 +1,17 @@
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 
+
 export default defineConfig({
+    test: {
+        coverage: {
+            provider: 'v8',
+            reporter : ['text', 'json' , 'html']
+
+        },
+    },
+
+
     build: {
         rollupOptions: {
             input: {
@@ -10,4 +20,12 @@ export default defineConfig({
             },
         },
     },
-})
+    resolve: {
+        alias: {
+            '@': '/src'
+        }
+    }
+});
+
+
+

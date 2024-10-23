@@ -1,5 +1,6 @@
 import words from "./words.js";
 
+
 export const Hangman = class {
     constructor({maxAttempts, guessedLetters, wrongAttempts, word} = {}) {
         document.body.innerHTML += `
@@ -111,4 +112,9 @@ export const Hangman = class {
     reset() {
         this.init()
     }
+
+}// sum.js
+export function sum(a, b) {
+    return a + b
 }
+
