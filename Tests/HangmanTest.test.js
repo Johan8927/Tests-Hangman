@@ -15,7 +15,7 @@ test('use jsdom in this test file', () => {
 // méthode sum pour tester
 
 test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3)
+    expect(sum(1, 2)).toEqual(3)
 })
 // méthode displayedWord
 describe("Méthode displayedWord", () => {
