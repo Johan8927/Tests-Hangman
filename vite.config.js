@@ -1,5 +1,6 @@
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
+import { chromium } from 'playwright';
 
 
 export default defineConfig({

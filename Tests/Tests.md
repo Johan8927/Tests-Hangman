@@ -29,4 +29,11 @@ Résultat attendu : si le message n'est pas en vert retourne ""
 
 Nom : Méthode handleGuess -Teste si la lettre soumise est la bonne
 ID : T4
-Objectif : Tester si guessedLetters
+Objectif : Tester si guessedLetters push ou pas en fonction de si la lettre est dans le mot à deviner
+- Conditions : si le mot à deviner inclue une lettre que l'ont à choisit push la lettre  
+- Si la lettre est la bonne effectue displayWord et checkWin sinon wrongAttemps ++ et fonction checkLose
+Résultats attendu : 
+- si la lettre est la bonne effectue displayWord et checkWin sinon wrongAttemps ++ et fonction checkLose
+
+----------------
+
